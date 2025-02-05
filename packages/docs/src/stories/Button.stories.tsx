@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, ButtonProps } from '@ignite-ui/react'
+import { Button } from '@gibbon-design/react'
 import { ArrowRight } from '@phosphor-icons/react'
 
-export default {
+const meta: Meta<typeof Button> = {
   title: 'Form/Button',
   component: Button,
-  tags: ['autodocs'],// criam um arquivo para mostrar as docs
+  tags: ['autodocs'],
   args: {
     children: 'Send',
     variant: 'primary',
@@ -31,32 +31,36 @@ export default {
     onClick: {
       action: 'click'
     },
-  }
-} as Meta<ButtonProps>
+  },
+}
+export default meta
 
-export const Primary: StoryObj<ButtonProps> = {}
+type Story = StoryObj<typeof Button>
 
-export const Secondary: StoryObj<ButtonProps> = {
+export const Primary: Story = {}
+
+export const Secondary: Story = {
   args: {
     variant: 'secondary',
     children: 'Create new',
   },
 }
 
-export const Tertiary: StoryObj<ButtonProps> = {
+export const Tertiary: Story = {
   args: {
     variant: 'tertiary',
     children: 'Cancel',
   }
 }
 
-export const Small: StoryObj<ButtonProps> = {
+export const Small: Story = {
   args: {
     size: 'sm',
   },
 }
 
-export const WithIcon: StoryObj<ButtonProps> = {
+
+export const WithIcon: Story = {
   args: {
     children: (
       <>
@@ -67,7 +71,7 @@ export const WithIcon: StoryObj<ButtonProps> = {
   },
 }
 
-export const Disabled: StoryObj<ButtonProps> = {
+export const Disabled: Story = {
   args: {
     disabled: true,
   },

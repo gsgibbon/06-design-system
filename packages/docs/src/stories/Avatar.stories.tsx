@@ -1,13 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Avatar, AvatarProps } from '@ignite-ui/react'
+import { Avatar } from "@gibbon-design/react"
 
-export default {
+const meta: Meta<typeof Avatar> = {
   title: 'Data display/Avatar',
   component: Avatar,
   tags: ['autodocs'],// criam um arquivo para mostrar as docs
   args: {
-    src: 'https://github.com/diego3g.png',
-    alt: 'Diego'
+    src: 'https://github.com/gsgibbon.png',
+    alt: 'Guilherme'
   },
   argTypes: {
     src: {
@@ -16,11 +16,14 @@ export default {
       },
     },
   },
-} as Meta<AvatarProps>
+}
+export default meta
 
-export const Primary: StoryObj<AvatarProps> = {}
+type Story = StoryObj<typeof Avatar>
 
-export const WithFallback: StoryObj<AvatarProps> = {
+export const Primary: Story = {}
+
+export const WithFallback: Story = {
   args: {
     src: undefined,
   }

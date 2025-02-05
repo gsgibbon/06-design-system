@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextArea, TextAreaProps } from '@ignite-ui/react'
+import { Box, Text, TextArea } from '@gibbon-design/react'
 
-export default {
+const meta: Meta<typeof TextArea> = {
   title: 'Form/Text Area',
   component: TextArea,
-  tags: ['autodocs'],// criam um arquivo para mostrar as docs
+  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => {
@@ -16,15 +16,18 @@ export default {
       )
     }
   ],
-} as Meta<TextAreaProps>
+}
+export default meta
 
-export const Primary: StoryObj<TextAreaProps> = {
+type Story = StoryObj<typeof TextArea>
+
+export const Primary: Story = {
   args: {
     placeholder: 'Add any observations',
   },
 }
 
-export const Disabled: StoryObj<TextAreaProps> = {
+export const Disabled: Story = {
   args: {
     disabled: true,
   },

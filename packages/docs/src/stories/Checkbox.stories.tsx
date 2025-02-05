@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, Checkbox, CheckboxProps } from '@ignite-ui/react'
+import { Box, Text, Checkbox, CheckboxProps } from '@gibbon-design/react'
 
 export default {
   title: 'Form/Checkbox',
   component: Checkbox,
-  tags: ['autodocs'],// criam um arquivo para mostrar as docs
+  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => {

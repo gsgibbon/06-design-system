@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps, Text } from '@ignite-ui/react'
+import { Box, Text } from '@gibbon-design/react'
 
-export default {
+const meta: Meta<typeof Box> = {
   title: 'Surfaces/Box',
   component: Box,
   tags: ['autodocs'],// criam um arquivo para mostrar as docs
@@ -15,6 +15,9 @@ export default {
       },
     },
   },
-} as Meta<BoxProps>
+}
+export default meta
 
-export const Primary: StoryObj<BoxProps> = {}
+type Story = StoryObj<typeof Box>
+
+export const Primary: Story = {}

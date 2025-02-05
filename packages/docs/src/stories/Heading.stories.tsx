@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Heading, HeadingProps } from '@ignite-ui/react'
+import { Heading } from '@gibbon-design/react'
 
-export default {
+const meta: Meta<typeof Heading> = {
   title: 'Typography/Heading',
   component: Heading,
-  tags: ['autodocs'], // criam um arquivo para mostrar as docs
+  tags: ['autodocs'], 
   args: {
     children: 'Custom title',
     size: 'md',
@@ -17,14 +17,16 @@ export default {
       }
     },
   },
-} as Meta<HeadingProps>
+}
+export default meta
 
-export const Primary: StoryObj<HeadingProps> = {}
+type Story = StoryObj<typeof Heading>
 
-export const CustomTag: StoryObj<HeadingProps> = {
+export const Primary: Story = {}
+
+export const CustomTag: Story = {
   args: {
-    children: 'H1 Heading',
-    as: 'h1'
+    children: <h1>H1 Heading</h1>,
   },
   parameters: {
     docs: {

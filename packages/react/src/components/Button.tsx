@@ -1,4 +1,3 @@
-import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
 export const Button = styled('button', {
@@ -77,7 +76,3 @@ export const Button = styled('button', {
     size: 'md',
   },
 })
-
-export interface ButtonProps extends ComponentProps<typeof Button> {
-  as?: ElementType
-}

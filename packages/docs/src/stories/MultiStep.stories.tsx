@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, MultiStep, MultiStepProps } from '@ignite-ui/react'
+import { Box, MultiStep, MultiStepProps } from '@gibbon-design/react'
 
 export default {
   title: 'Form/Multi Step',
   component: MultiStep,
-  tags: ['autodocs'],// criam um arquivo para mostrar as docs
+  tags: ['autodocs'],
   args: {
     size: 4,
     currentStep: 1,

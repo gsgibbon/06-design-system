@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/tokens",
+  "name": "@gibbon-design/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/inde.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/ts-config": "*",
-    "@ignite-ui/eslint-config": "*",
+    "@gibbon-design/ts-config": "*",
+    "@gibbon-design/eslint-config": "*",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
   }

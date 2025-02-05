@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Text, TextProps } from '@ignite-ui/react'
+import { Text } from '@gibbon-design/react'
 
-export default {
+const meta: Meta<typeof Text> = {
   title: 'Typography/Text',
   component: Text,
-  tags: ['autodocs'],// criam um arquivo para mostrar as docs
+  tags: ['autodocs'],
   args: {
     children: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illo, voluptatem ducimus voluptate tempora eum numquam obcaecati pariatur aperiam autem veniam nobis dolore voluptates dolor. Minima architecto temporibus assumenda reprehenderit!',
     size: 'md',
@@ -17,13 +17,15 @@ export default {
       }
     },
   },
-} as Meta<TextProps>
+}
+export default meta
 
-export const Primary: StoryObj<TextProps> = {}
+type Story = StoryObj<typeof Text>
 
-export const CustomTag: StoryObj<TextProps> = {
+export const Primary: Story = {}
+
+export const CustomTag: Story = {
   args: {
     children: 'Strong text',
-    as: 'strong',
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@gibbon-design/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,9 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@gibbon-design/eslint-config": "*",
+    "@gibbon-design/react": "*",
+    "@gibbon-design/tokens": "*",
     "@phosphor-icons/react": "^2.1.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
