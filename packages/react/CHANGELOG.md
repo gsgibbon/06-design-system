@@ -1,5 +1,17 @@
 # @gibbon-design/react
 
+## 3.1.0
+
+### Minor Changes
+
+- change to styled components
+
+## 3.0.0
+
+### Major Changes
+
+- ff8883f: Add display name to all components
+
 ## 2.0.0
 
 ### Major Changes

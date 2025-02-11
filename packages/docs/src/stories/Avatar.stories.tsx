@@ -4,7 +4,7 @@ import { Avatar } from "@gibbon-design/react"
 const meta: Meta<typeof Avatar> = {
   title: 'Data display/Avatar',
   component: Avatar,
-  tags: ['autodocs'],// criam um arquivo para mostrar as docs
+  tags: ['autodocs'],
   args: {
     src: 'https://github.com/gsgibbon.png',
     alt: 'Guilherme'
