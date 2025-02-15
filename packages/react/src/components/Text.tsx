@@ -55,3 +55,5 @@ export const Text = styled.p<{ size?: keyof typeof sizeVariants}>`
 Text.defaultProps = {
   size: 'md',
 }
+
+Text.displayName = "Text"

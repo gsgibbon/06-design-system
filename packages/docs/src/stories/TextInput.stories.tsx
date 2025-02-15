@@ -9,7 +9,7 @@ export default {
   decorators: [
     (Story) => {
       return (
-        <Box as="label" css={{ display: 'flex', flexDirection: 'column', gap: '$2'}}>
+        <Box as="label" style={{ display: 'flex', flexDirection: 'column', gap: '$2'}}>
           <Text size="sm" >E-mail address</Text>
           {Story()}
         </Box>
@@ -33,5 +33,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
+    placeholder: 'your-username'
   },
 }

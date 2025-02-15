@@ -40,3 +40,5 @@ export const Heading = styled.h2<{ size: keyof typeof sizeVariants }>`
 Heading.defaultProps = {
   size: 'md',
 }
+
+Heading.displayName = "Heading"

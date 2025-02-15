@@ -82,6 +82,10 @@ export const Button = styled.button<{
     cursor: not-allowed;
   }
 
+  &:focus {
+    box-shadow: 0 0 0 2px ${theme.colors.gray100};
+  }
+
   ${({variant}) => stylesVariants[variant]}
   ${({size}) => sizeVariants[size]}
 `
@@ -90,3 +94,5 @@ Button.defaultProps = {
   variant: 'primary',
   size: 'md'
 }
+
+Button.displayName = "Button"

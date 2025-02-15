@@ -1,5 +1,11 @@
 # @gibbon-design/react
 
+## 3.1.1
+
+### Patch Changes
+
+- Add some fixes to futute projects
+
 ## 3.1.0
 
 ### Minor Changes
