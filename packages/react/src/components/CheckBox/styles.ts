@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import * as Checkbox from '@radix-ui/react-checkbox';
-import { theme } from '../../styles/themes';
+import { theme } from '../../styles';
 
 export const CheckboxContainer = styled(Checkbox.Root)`
   all: unset;

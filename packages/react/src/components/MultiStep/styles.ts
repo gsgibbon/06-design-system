@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { theme } from "../../styles/themes"
+import { theme } from "../../styles"
 import { Text } from "../Text"
 
 export const MultiStepContainer = styled.div``;

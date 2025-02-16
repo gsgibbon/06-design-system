@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { theme } from "../../styles/themes"
+import { theme } from "../../styles"
 import { css } from "styled-components";
 
 const sizeVariants = {

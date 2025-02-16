@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import * as Avatar from '@radix-ui/react-avatar';
-import { theme } from '../../styles/themes';
+import { theme } from '../../styles';
 
 // Container do Avatar
 export const AvatarContainer = styled(Avatar.Root)`

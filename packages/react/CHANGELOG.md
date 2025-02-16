@@ -1,5 +1,11 @@
 # @gibbon-design/react
 
+## 3.1.2
+
+### Patch Changes
+
+- Add export config styled components
+
 ## 3.1.1
 
 ### Patch Changes
