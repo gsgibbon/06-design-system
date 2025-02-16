@@ -1,5 +1,11 @@
 # @gibbon-design/react
 
+## 3.1.3
+
+### Patch Changes
+
+- correction in the header
+
 ## 3.1.2
 
 ### Patch Changes

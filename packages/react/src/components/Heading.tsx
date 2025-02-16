@@ -28,13 +28,13 @@ const sizeVariants = {
   `,
 }
 
-export const Heading = styled.h2<{ size: keyof typeof sizeVariants }>`
+export const Heading = styled.h2<{ size?: keyof typeof sizeVariants }>`
   font-family: ${theme.fonts.default};
   line-height: ${theme.lineHeights.shorter};
   margin: 0;
   color: ${theme.colors.gray100};
 
-  ${({ size }) => sizeVariants[size]};
+  ${({ size = "md" }) => sizeVariants[size]};
 `
 
 Heading.defaultProps = {
