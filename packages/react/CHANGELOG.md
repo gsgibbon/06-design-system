@@ -1,5 +1,17 @@
 # @gibbon-design/react
 
+## 3.2.0
+
+### Minor Changes
+
+- adjustment in types
+
+## 3.1.4
+
+### Patch Changes
+
+- update config themes
+
 ## 3.1.3
 
 ### Patch Changes

@@ -53,8 +53,8 @@ const sizeVariants = {
 }  
 
 export const Button = styled.button<{
-  variant: keyof typeof stylesVariants;
-  size: keyof typeof sizeVariants;
+  variant?: keyof typeof stylesVariants;
+  size?: keyof typeof sizeVariants;
 }>`
   all: unset;
   border-radius: ${theme.radii.sm};
@@ -86,8 +86,8 @@ export const Button = styled.button<{
     box-shadow: 0 0 0 2px ${theme.colors.gray100};
   }
 
-  ${({variant}) => stylesVariants[variant]}
-  ${({size}) => sizeVariants[size]}
+  ${({variant = 'primary'}) => stylesVariants[variant]}
+  ${({size = 'md'}) => sizeVariants[size]}
 `
 
 Button.defaultProps = {
