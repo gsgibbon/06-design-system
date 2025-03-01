@@ -1,5 +1,11 @@
 # @gibbon-design/tokens
 
+## 2.2.0
+
+### Minor Changes
+
+- 4466026: update
+
 ## 2.1.0
 
 ### Minor Changes
