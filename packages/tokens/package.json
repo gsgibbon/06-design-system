@@ -1,6 +1,6 @@
 {
   "name": "@gibbon-design/tokens",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "",
   "main": "./dist/inde.js",
   "module": "./dist/index.mjs",

@@ -1,5 +1,11 @@
 # @gibbon-design/react
 
+## 3.2.1
+
+### Patch Changes
+
+- add color red
+
 ## 3.2.0
 
 ### Minor Changes

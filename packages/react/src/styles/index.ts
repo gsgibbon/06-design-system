@@ -20,6 +20,4 @@ const theme = {
   space,
 }
 
-export type ThemeType = typeof theme
-
 export { createGlobalStyle, styled, css, keyframes, ThemeProvider, theme}
