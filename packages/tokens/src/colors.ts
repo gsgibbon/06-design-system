@@ -18,4 +18,4 @@ export const colors = {
   green900: '#00291D',
 
   red800: '#f75a68'
-}
+} as const

@@ -1,5 +1,11 @@
 # @gibbon-design/react
 
+## 3.3.0
+
+### Minor Changes
+
+- 4466026: update
+
 ## 3.2.1
 
 ### Patch Changes
