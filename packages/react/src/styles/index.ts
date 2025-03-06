@@ -8,9 +8,9 @@ import {
   space
 } from '@gibbon-design/tokens'
 
-import { createGlobalStyle, styled, css, keyframes, ThemeProvider } from 'styled-components'
+import { createGlobalStyle, styled, css, keyframes, ThemeProvider, DefaultTheme } from 'styled-components'
 
-const theme = {
+const theme: DefaultTheme = {
   colors,
   fonts,
   fontSizes,
@@ -18,6 +18,6 @@ const theme = {
   lineHeights,
   radii,
   space,
-}
+} as const
 
 export { createGlobalStyle, styled, css, keyframes, ThemeProvider, theme}
