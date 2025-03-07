@@ -1,5 +1,11 @@
 # @gibbon-design/react
 
+## 3.4.0
+
+### Minor Changes
+
+- e21c155: .
+
 ## 3.3.2
 
 ### Patch Changes
