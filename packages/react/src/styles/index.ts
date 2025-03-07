@@ -10,7 +10,7 @@ import {
 
 import { createGlobalStyle, styled, css, keyframes, ThemeProvider, DefaultTheme } from 'styled-components'
 
-const theme = {
+const theme: DefaultTheme  = {
   colors,
   fonts,
   fontSizes,

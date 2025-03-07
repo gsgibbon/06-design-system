@@ -1,0 +1,5 @@
+---
+"@gibbon-design/react": minor
+---
+
+.
