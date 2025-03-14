@@ -1,5 +1,11 @@
 # @gibbon-design/react
 
+## 3.5.0
+
+### Minor Changes
+
+- update exports
+
 ## 3.4.0
 
 ### Minor Changes
